@@ -1,4 +1,8 @@
 # Penetration testing notes
 
 ## Remote code execution
-- [Upgrading shells](RCE/upgrading-terminals.md)
+- [Common stuff](rce/common.md)
+- [Upgrading shells](rce/upgrading-terminals.md)
+
+## Applications
+- [Jenkins](applications/jenkins.md)
