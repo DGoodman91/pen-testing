@@ -22,4 +22,4 @@ nmap -sV -sC 10.123.32.1
 
 ## Links
 
-- [Quick reference guide](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/)
+- [Quick reference guide](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/) 
