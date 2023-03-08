@@ -3,8 +3,12 @@
 Notes, cheatsheets and reference links for pen testing stuff
 
 ## Enumeration
-- [Common stuff](enumeration/common-remote.md)
+- [Common ports and services](enumeration/ports-and-services.md)
+- [Common remote enumeration](enumeration/common-remote.md)
 - [nmap](enumeration/nmap.md)
+
+## Services
+- [SMB](services/smb.md)
 
 ## Remote code execution
 - [Common stuff](rce/common.md)
