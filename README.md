@@ -9,6 +9,7 @@ Notes, cheatsheets and reference links for pen testing stuff
 
 ## Services
 - [SMB](services/smb.md)
+- [MS SQL](databases/mssql.md)
 
 ## Remote code execution
 - [Common stuff](rce/common.md)
