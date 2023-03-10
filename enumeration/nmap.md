@@ -20,6 +20,12 @@ Run the default set of scripts - things like testing ftp services for anonymous 
 nmap -sV -sC 10.123.32.1
 ```
 
+Check for UDP, requires root priv
+
+```bash
+nmap -sU 10.123.32.1
+```
+
 ## Links
 
 - [Quick reference guide](https://hackertarget.com/nmap-cheatsheet-a-quick-reference-guide/) 
