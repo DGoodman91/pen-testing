@@ -8,6 +8,18 @@ Use python to upgrade a dumb terminal to an interactive shell
 python -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
+## Using script
+
+If we've got a tcp connection to a network socket, we can use
+
+```bash
+script /dev/null -c bash
+# OR
+SHELL=/bin/bash script -q /dev/null
+```
+
+[See for more detail](https://unix.stackexchange.com/a/599135)
+
 # Adding autocomplete
 
 If we have a functional terminal with prompt and cursor, but don't yet have autocomplete or command history, we can upgrade to a fully functional one.

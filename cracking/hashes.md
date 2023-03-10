@@ -24,3 +24,9 @@ Analyzing '2cb42f8734ea607eefed3b70af13bbd3'
 [+] DNSSEC(NSEC3) 
 [+] RAdmin v2.x
 ```
+
+Use hashcat and a wordlist to brute force it. -a is the attack mode (e.g. straight, brute force, wordlist + mask) and -m is the hash type (0 is md5)
+
+```bash
+hashcat -a 0 -m 0 hash.out /usr/share/wordlists/rockyou.txt
+```
