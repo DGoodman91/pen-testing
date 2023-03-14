@@ -1,6 +1,8 @@
 # Subdomain enumeration
 
-
+```bash
+gobuster vhost --append-domain -w /home/kali/Documents/tools/dnscan/subdomains-10000.txt -u http://domain.net
+```
 
 
 # Directory enumeration
