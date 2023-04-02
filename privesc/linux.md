@@ -1,9 +1,30 @@
+## Enumeration Scripts
+
+[Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) is a super comprehensive and commonly used script to identify possible priv-esc vectors.
+
 ## Common
 
 List your user's sudo priveleges with
 
 ```bash
 ~$ sudo -l
+```
+
+Also check for permit-nopass rules in the **doas.conf** file if it exists.
+
+The rule
+
+```shell
+# /etc/doas.conf or /usr/local/etc/doas.conf
+permit nopass player as root cmd /usr/bin/dstat
+```
+
+allows us to run
+
+```shell
+doas /usr/bin/dstat
+# OR
+doas /usr/bin/dstat --some-args
 ```
 
 ## vi

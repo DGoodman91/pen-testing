@@ -25,3 +25,9 @@ Sample payload for testing whether it's possible
     <address>1234533453</address>
 </order>
 ```
+
+## Out-of-band exfiltration
+
+[Example of OOB-exfiltration using FTP](https://gosecure.github.io/xxe-workshop/#3)
+
+[Mock FTP server for FP-based OOB-exfiltration](https://github.com/GoSecure/xxe-workshop/blob/master/22_dtd_xxe/solution/ftp_server.rb)
