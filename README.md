@@ -33,6 +33,7 @@ Notes, cheatsheets and reference links for pen testing stuff
 - [Server-Side Template Injection (SSTI)](injection/ssti.md)
 - [XXE/XEE](injection/xml.md)
 - [Java - Log4Shell](injection/log4shell.md)
+- [Tar](injection/misc.md#tar)
 
 ## Applications
 - [Jenkins](applications/jenkins.md)
