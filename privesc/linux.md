@@ -2,6 +2,18 @@
 
 [Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) is a super comprehensive and commonly used script to identify possible priv-esc vectors.
 
+## setuid bit
+
+The setuid bit simply indicates that when running the executable, it will set its permissions to that of the owner, instead of setting it to the user who launched it.
+
+We can search for all files with the bit set with
+
+```bash
+www-data@50bca5e748b0:/var/www/html$ find / -perm -u=s -type f 2>/dev/null
+```
+
+It's worth checking the results against [GTFOBins](https://gtfobins.github.io/).
+
 ## Common
 
 List your user's sudo priveleges with
