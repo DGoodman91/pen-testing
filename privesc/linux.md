@@ -9,7 +9,7 @@ The setuid bit simply indicates that when running the executable, it will set it
 We can search for all files with the bit set with
 
 ```bash
-www-data@50bca5e748b0:/var/www/html$ find / -perm -u=s -type f 2>/dev/null
+find / -perm -u=s -type f 2>/dev/null
 ```
 
 It's worth checking the results against [GTFOBins](https://gtfobins.github.io/).
