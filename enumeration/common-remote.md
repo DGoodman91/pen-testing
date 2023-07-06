@@ -12,4 +12,5 @@ LISTEN      0           50                [::ffff:127.0.0.1]:35951              
 LISTEN      0           50                [::ffff:127.0.0.1]:8080                         *:* 
 ```
 
+We can use [pspy](https://github.com/DominicBreuker/pspy) to view the running processes without requiring root privs
 

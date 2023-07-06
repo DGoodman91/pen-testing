@@ -1,6 +1,6 @@
 # Penetration testing notes
 
-Notes, cheatsheets and reference links for pen testing stuff
+Notes, cheatsheets and reference links for pen testing stuff. Not intended to be comprehensive - I add to this as and when I use things in CTF exercises & other work.
 
 ## Cracking
 - [Hashes](cracking/hashes.md)
@@ -38,6 +38,7 @@ Notes, cheatsheets and reference links for pen testing stuff
 ## Applications
 - [Jenkins](applications/jenkins.md)
 - [WordPress](applications/wordpress.md)
+- [Git](applications/git.md)
 
 ## Forensics
 - [Analyze mem dumps w/ Volatility](forensics/volatility.md)
